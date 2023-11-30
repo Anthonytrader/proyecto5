@@ -1,0 +1,89 @@
+/*PokedexPage.css*/
+/* Estilos para la imagen de fondo del header */
+.header {
+    position: relative;
+    background-image: url('../assets/imagenes/header.png');
+    background-size: cover;
+    width: 100%;
+    height: 195px;
+
+
+}
+
+.overlay-image {
+    position: absolute;
+    width: 431px;
+    height: 76px;
+    top: 47px;
+    left: 133px;
+    background-image: url('../assets/imagenes/pok2.png');
+    background-size: cover;
+}
+
+/* Estilos para el texto de bienvenida */
+.welcome-section {
+    width: 882px;
+    height: 40px;
+    top: 195px;
+    left: 143px;
+
+}
+
+.welcome-text {
+    /* Color negro para el texto excepto el nombre del entrenador */
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.trainer-name {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FF0000;
+   
+}
+
+
+  
+  .search-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+  .search-form {
+  margin-right: 100px; 
+}
+  .Search{
+    background-color:#D93F3F;
+    color: white;
+    width: 210.48px;
+    height: 68px;
+    top: 275px;
+    left: 595.53px;
+     margin-left: 280px; 
+     cursor: pointer;
+     
+  }
+  
+
+  .pokemons-section {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px; /* Ajusta el margen inferior para separación */
+  }
+  .pokemons-section .pokecard {
+    width: calc(20% - 5px); /* Calcular el ancho de cada tarjeta con espacios entre ellas */
+    margin-bottom: 40px; /* Espacio entre las filas */
+  }
+  

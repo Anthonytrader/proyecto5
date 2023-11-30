@@ -1,0 +1,85 @@
+/*Homepage.css*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto+Serif:ital,opsz@1,8..144&display=swap');
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+
+
+.Poke {
+    margin-bottom: 20px;
+    width: 676px;
+    height: 121px;
+    top: 256px;
+    left: 389px;
+    display: block;
+    
+   
+}
+
+
+
+
+.HiTrainer {
+    margin-bottom: 20px;
+    width: 662px;
+    height: 40px;
+    top: 449px;
+    left: 397px;
+    font-family: 'Inter';
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FE1936;
+}
+ 
+.ToStart {
+    margin-bottom: 20px;
+    width: 662px;
+    height: 30px;
+    top: 505px;
+    left: 396px;
+    font-family: 'Inter', sans-serif; 
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #302F2F;
+  }
+  
+  .catch{
+    background-color:#D93F3F;
+    color: white;
+    font-family: 'Inter', sans-serif; 
+    width: 209.21px;
+    height : 68px;
+     top: 595px;
+     left: 841.79px;
+     margin-left: 280px; 
+     cursor: pointer;
+  
+   
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 662px;
+    height: 68px;
+    top: 595px;
+    left: 389px;
+    box-shadow: 0px 3px 6px 0px #00000026;
+   
+   
+    
+  }

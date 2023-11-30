@@ -1,0 +1,312 @@
+.header {
+  margin-bottom: 20px;
+}
+
+
+.pokemon-details {
+  width: 1116px;
+  height: 1272px;
+  top: 320px;
+  left: 162px;
+  margin: 40px auto;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 2px 16px 0px #00000026;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+ 
+}
+
+.pokecard_header {
+  background-size: 50%;
+  width: 1108px;
+  height: 185px;
+  top: 380px;
+  /* Posición en la parte superior de la página */
+  left: 50%;
+  /* Para centrar horizontalmente el elemento */
+  transform: translateX(-50%);
+  /* Centrar horizontalmente el elemento */
+  border-radius: 4px 4px 0px 0px;
+  position: absolute;
+  /* Asegúrate de que la posición sea absoluta */
+  z-index: 1;
+}
+
+.pokemon-image {
+  position: absolute;
+  width: 300px;
+  /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: auto;
+  left: 50%;
+  /* Centra horizontalmente */
+  transform: translateX(-50%);
+  top: 250px;
+  z-index: 2;
+  /* Asegura que la imagen esté delante del pokecard_header */
+}
+
+.pokemon-name {
+  position: absolute;
+  width: 268px;
+  height: 43px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 650px;
+  z-index: 2;
+  text-transform: capitalize;
+
+}
+
+.pokemon-id {
+  position: absolute;
+  width: 78px;
+  height: 54px;
+  top: 580px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  border: 1px;
+  z-index: 2;
+
+
+}
+
+.id-name-section {
+  margin-bottom: 20px;
+}
+
+
+.pokemon-p-a {
+  position: absolute;
+  top: 700px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  border: 1px;
+  gap: 20px;
+  z-index: 2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.peso {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.peso span {
+  color:  #0F0F2D;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+
+
+}
+
+.altura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.altura span {
+  color: #0F0F2D;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+/*/////TIPOS///*/
+.pokeinfo_types{
+  position: absolute;
+  top: 850px;
+  right: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  border: 1px;
+  z-index: 2;
+
+
+  display: flex;
+  justify-content: center;
+  padding-left: 0.5em;
+  gap: 0.7em;
+  margin-bottom: 1em;
+  list-style-type: none;
+  text-align: center;
+}
+.title_type{
+    font-weight: bold;
+    position: absolute;
+    top: 800px;
+    right: 70%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    border: 1px;
+    z-index: 2;
+}
+.pokeinfo_typename{
+  
+  text-transform: capitalize;
+  padding: 0.3em 0.5em;
+}
+.pokeinfo_typename:nth-child(odd) {
+  background-color: red; /* Color de fondo para elementos impares */
+  padding: 0.5em 3em; /* Aumenta el relleno para aumentar el tamaño del fondo */
+  border-radius: 8px; 
+}
+
+.pokeinfo_typename:nth-child(even) {
+  background-color: yellow; /* Color de fondo para elementos pares */
+  padding: 0.5em 3em; /* Aumenta el relleno para aumentar el tamaño del fondo */
+  border-radius: 8px;
+}
+
+.pokeinfo_typename:nth-child(2)::before {
+  
+  padding-right: 0.7em;
+}
+/*/////HABILIDADES///*/
+.pokeinfo_abilities{
+  position: absolute;
+  top: 850px;
+  left: 70%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  border: 1px;
+  z-index: 2;
+
+  display: flex;
+  justify-content: center;
+  padding-left: 0.5em;
+  gap: 0.7em;
+  margin-bottom: 1em;
+  list-style-type: none;
+  text-align: center;
+
+}
+.title_Abilities{
+  font-weight: bold;
+  position: absolute;
+  top: 800px;
+  left: 70%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  border: 1px;
+  z-index: 2;
+
+}
+
+.pokeinfo_abil{
+  text-transform: capitalize;
+  padding: 0.3em 0.5em;
+
+}
+.pokeinfo_abil:nth-child(odd) {
+  background-color: red; /* Color de fondo para elementos impares */
+  padding: 0.5em 3em; /* Aumenta el relleno para aumentar el tamaño del fondo */
+  border-radius: 8px; 
+}
+
+.pokeinfo_abil:nth-child(even) {
+  background-color: yellow; /* Color de fondo para elementos pares */
+  padding: 0.5em 3em; /* Aumenta el relleno para aumentar el tamaño del fondo */
+  border-radius: 8px;
+}
+
+.pokeinfo_abil:nth-child(2)::before {
+  
+  padding-right: 0.7em;
+}
+
+.title_stats{
+  font-weight: bold;
+    position: absolute;
+    top: 950px;
+    right: 70%;
+    transform: translateX(-50%);
+    border-radius: 2px;
+    border: 1px;
+    z-index: 2;
+
+}
+
+.title_stats::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: -550px; /* Ajusta la posición de la línea horizontal */
+  transform: translateY(-50%);
+  width: 500px; /* Ajusta la longitud de la línea horizontal */
+  height: 1px; /* Grosor de la línea */
+  background-color: black; /* Color de la línea */
+}
+
+
+.pokeinfo_stats{
+  margin-top: 700px; /* Mover la sección hacia abajo */
+  margin-right: 100px; /* Mover la sección hacia la izquierda */
+}
+
+.pokeinfo_stat {
+  display: flex;
+  justify-content: space-between; /* Coloca cada elemento en los extremos de su contenedor */
+  align-items: center; /* Centra verticalmente los elementos */
+  margin-bottom: 10px; /* Espacio entre cada estadística */
+ 
+}
+
+.pokeinfo_stat_name {
+  flex: 8; /* Ocupa todo el espacio disponible */
+  text-align: left; /* Alinea el texto a la izquierda */
+  text-transform: capitalize;
+  margin-right: 80px;
+  
+}
+
+.pokeinfo_stat_value {
+  flex: 1; /* Ocupa todo el espacio disponible */
+  text-align: right; /* Alinea el texto a la derecha */
+  margin-left: 400px;
+}
+
+
+
+
+
+
+.grass-gradient{
+  background: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.96%, #CAE099 99.08%);
+
+}
+.fire-gradient{
+  background: linear-gradient(176.37deg, #F96D6F -32.26%, #E35825 22.55%, #E8AE1B 125.72%);
+}
+.water-gradient{
+  background: linear-gradient(179.57deg, #133258 -70.14%, #1479FB 56.16%, #82B2F1 214.85%);
+
+}
+.bug-gradient{
+  background: linear-gradient(177.56deg, #62DB60 -58.92%, #3BB039 16.57%, #AAFFA8 209.53%);
+}

@@ -1,0 +1,24 @@
+/* CSS para el select */
+
+.custom-select {
+    width: 470.84px;
+    height: 38px;
+    top: 275px;
+    left: 830.16px;
+  
+  
+    /* Controla el despliegue de la lista hacia abajo */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -moz-position: relative;
+    cursor: pointer;
+  }
+  
+  /* CSS para las opciones del select */
+  .custom-select option {
+    position: absolute;
+  top: 100%;
+  cursor: pointer;
+  }
+  
